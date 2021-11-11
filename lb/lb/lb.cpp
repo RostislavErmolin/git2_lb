@@ -24,7 +24,7 @@ int main()
 		break;
 	}
 	case'2': {
-		cout << "эта функция в разработке" << endl;
+		cout << a << " - " << b << " = " << subtraction(a, b) << endl;
 		break;
 	}
 	case'3': {
