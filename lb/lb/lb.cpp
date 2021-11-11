@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-	setlocale(0, "");
+	setlocale(LC_ALL, "Russian");
 	double a, b;
 	cout << "Калькулятор" << endl;
 	cout << "Введите первое значение" << endl;
@@ -20,7 +20,7 @@ int main()
 	cout << "4-Делить" << endl;
 	switch (_getch()) {
 	case'1': {
-		cout << "эта функция в разработке" << endl;
+		cout << a << " + " << b << " = " << summa(a, b)<< endl;
 		break;
 	}
 	case'2': {
